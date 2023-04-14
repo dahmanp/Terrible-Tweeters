@@ -123,10 +123,16 @@ AudioMixerController:
   m_EnableSuspend: 1
   m_UpdateMode: 0
   m_ExposedParameters:
+  - guid: 2d3df4cc778e5934a8ed8026ef14ef9b
+    name: CrateVolume
   - guid: 0a128307829d864458efcbdb292fc4aa
-    name: MyExposedParam
+    name: MasterVolume
+  - guid: 98c3f8a9d138c4640b909b3f83e45d89
+    name: MonsterVolume
   - guid: f4881bbfed4f05547800c364b142711f
     name: MusicVolume
+  - guid: 51b53e891c61b3c4cb127cc23b8a5272
+    name: PlayerVolume
   - guid: add31e43853668449a226345c25857ee
     name: SFXVolume
   m_AudioMixerGroupViews:

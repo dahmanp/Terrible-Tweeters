@@ -817,7 +817,7 @@ GameObject:
   m_Component:
   - component: {fileID: 358811542}
   - component: {fileID: 358811544}
-  - component: {fileID: 358811543}
+  - component: {fileID: 358811545}
   m_Layer: 5
   m_Name: Music Vol
   m_TagString: Untagged
@@ -848,23 +848,6 @@ RectTransform:
   m_AnchoredPosition: {x: -215, y: 49}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &358811543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 358811541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 735ead6f31f9bc24dab5abb2772776f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _volumeParameter: MusicVolume
-  _mixer: {fileID: 24100000, guid: 963ec9e4769e8d340b039021df9edd22, type: 2}
-  _slider: {fileID: 358811544}
-  _multiplier: 30
-  _toggle: {fileID: 1472439252}
 --- !u!114 &358811544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -916,6 +899,23 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &358811545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358811541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 735ead6f31f9bc24dab5abb2772776f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _volumeParameter: MusicVolume
+  _mixer: {fileID: 24100000, guid: 963ec9e4769e8d340b039021df9edd22, type: 2}
+  _slider: {fileID: 358811544}
+  _multiplier: 30
+  _toggle: {fileID: 1472439252}
 --- !u!1001 &375864073
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1768,15 +1768,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 853094214728369329, guid: bd0d36f3fdb842343ab0867733442e84, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.278561
+      value: -2.278562
       objectReference: {fileID: 0}
     - target: {fileID: 853094214728369330, guid: bd0d36f3fdb842343ab0867733442e84, type: 3}
       propertyPath: orthographic size
-      value: 5.354602
+      value: 5.3650236
       objectReference: {fileID: 0}
     - target: {fileID: 853094214970778032, guid: bd0d36f3fdb842343ab0867733442e84, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.278561
+      value: -2.278562
       objectReference: {fileID: 0}
     - target: {fileID: 853094215570810956, guid: bd0d36f3fdb842343ab0867733442e84, type: 3}
       propertyPath: m_Name
