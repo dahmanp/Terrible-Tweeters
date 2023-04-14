@@ -1277,7 +1277,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 397568545}
   m_HandleRect: {fileID: 1328099367}
   m_Direction: 0
-  m_MinValue: 0.0001
+  m_MinValue: 0.001
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 0.8
@@ -1768,15 +1768,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 853094214728369329, guid: bd0d36f3fdb842343ab0867733442e84, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.278562
+      value: -2.278561
       objectReference: {fileID: 0}
     - target: {fileID: 853094214728369330, guid: bd0d36f3fdb842343ab0867733442e84, type: 3}
       propertyPath: orthographic size
-      value: 5.3650236
+      value: 5.6011286
       objectReference: {fileID: 0}
     - target: {fileID: 853094214970778032, guid: bd0d36f3fdb842343ab0867733442e84, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.278562
+      value: -2.278561
       objectReference: {fileID: 0}
     - target: {fileID: 853094215570810956, guid: bd0d36f3fdb842343ab0867733442e84, type: 3}
       propertyPath: m_Name

@@ -125,15 +125,15 @@ AudioMixerController:
   m_ExposedParameters:
   - guid: 2d3df4cc778e5934a8ed8026ef14ef9b
     name: CrateVolume
-  - guid: 0a128307829d864458efcbdb292fc4aa
+  - guid: e8008c103fab95346924928d74b540f9
     name: MasterVolume
   - guid: 98c3f8a9d138c4640b909b3f83e45d89
     name: MonsterVolume
-  - guid: f4881bbfed4f05547800c364b142711f
+  - guid: d7f210310d9ebb34683b4e5e26cb55b9
     name: MusicVolume
   - guid: 51b53e891c61b3c4cb127cc23b8a5272
     name: PlayerVolume
-  - guid: add31e43853668449a226345c25857ee
+  - guid: 12429e6f2284a2b4992049ae64ae98f9
     name: SFXVolume
   m_AudioMixerGroupViews:
   - guids:
